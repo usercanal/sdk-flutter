@@ -1,0 +1,19 @@
+# Build artifacts
+.dart_tool/
+build/
+
+# Generated files
+*.g.dart
+!lib/src/schema/generated/*.dart
+
+# Dependencies (for libraries)
+pubspec.lock
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
